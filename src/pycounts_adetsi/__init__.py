@@ -1,3 +1,5 @@
-# read version from installed package
-from importlib.metadata import version
-__version__ = version("pycounts_adetsi")
+__version__ = "0.1.0"  # Replace with your version
+
+from .pycounts_adetsi import count_words
+
+__all__ = ["count_words"]
